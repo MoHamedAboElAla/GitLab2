@@ -29,7 +29,7 @@ git push origin --delete v1.0
 git tag -d v1.0
 
 ## Add an image
-![Logo](./2.png)
+<img src="./image/2.jpg">
 
 
 
