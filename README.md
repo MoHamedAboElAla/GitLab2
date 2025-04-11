@@ -26,8 +26,12 @@ for create=> git tag [tag name]
 git push origin --delete v1.0
 
 ### To delete local tags
-git tag -d v1.0
+git tag -d v1.0 <br>
 
+## Create secret file and ignore it by Git
+1-echo "This is a secret file" > NameFile(secret.txt) 
+<br>
+2-echo "secret.txt" >> .gitignore
 ## Add an image
 <img src="./image/2.jpg">
 
